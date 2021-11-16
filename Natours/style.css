@@ -37,6 +37,9 @@ body {
 .logo {
 	height: 35px;
 }
+/* .logo:hover {
+	animation: moveInRight 3s ease-out;
+} */
 .text-box {
 	position: absolute;
 	top: 40%;
@@ -75,7 +78,6 @@ body {
 		opacity: 0;
 		transform: translateX(-100px);
 	}
-
 
 	80% {
 		transform: translateX(10px);
