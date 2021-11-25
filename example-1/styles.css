@@ -9,9 +9,11 @@ body {
 a {
 	background-color: purple;
 }
+/* css selector with the highest specificity */
 #nav div.pull-right a.button {
 	background-color: orangered;
 }
+
 #nav a.button:hover {
 	background-color: yellow;
 }
