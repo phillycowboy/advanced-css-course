@@ -13,6 +13,10 @@ a {
 #nav div.pull-right a.button {
 	background-color: orangered;
 }
+/* need a higher specificity for the hover to work */
+#nav div.pull-right a.button:hover {
+	background-color: black;
+}
 
 #nav a.button:hover {
 	background-color: yellow;
