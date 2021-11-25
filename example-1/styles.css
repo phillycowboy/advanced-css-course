@@ -9,3 +9,9 @@ body {
 a {
 	background-color: purple;
 }
+#nav div.pull-right a.button {
+	background-color: orangered;
+}
+#nav a.button:hover {
+	background-color: yellow;
+}
